@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import MenuIcon from '@mui/icons-material/Menu';
+import Navbar from './components/Nav/Navbar';
+import PostNav from './components/Nav/PostNav';
+import { BrowserRouter, Router } from 'react-router-dom';
+
 function App() {
   return (
-<>
-
-
-
+    <>    
+<Router>
+<Navbar/>
+<PostNav/>
+</Router>
 </>
   );
 }

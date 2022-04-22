@@ -1,0 +1,78 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Nav-bar {
+    /* outline: 1px solid red; */
+    height: 2.5rem;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+    width: 100%;
+}
+
+.Navbar-RightComponents {
+    outline: 1px solid rgb(0, 0, 243);
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar-RightItem {
+    /* outline: 1px solid green; */
+    margin: 2px;
+    list-style-type: none;
+    float: left;
+    align-items: center;
+    margin-left: 2rem;
+    font-size: smaller;
+}
+
+.Navbar-RightItem a {
+    border-right: 1px solid rgb(61, 59, 59);
+    padding: 0.2rem;
+    text-decoration: none;
+    color: rgb(205, 190, 190);
+}
+
+.Navbar-RightItem a:hover {
+    color: rgb(220, 207, 207);
+}
+
+.Navbar-LeftComponents {
+    /* outline: 1px solid rgb(0, 0, 243); */
+    height: 2.5rem;
+    margin-top: -2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Navbar-LeftItem {
+    /* outline: 1px solid green; */
+    /* margin: 2px; */
+    list-style-type: none;
+    float: left;
+    align-items: center;
+    margin-right: 1.5rem;
+    font-size: smaller;
+}
+
+.Navbar-LeftItem a {
+    border-right: 1px solid rgb(61, 59, 59);
+    border-spacing: 10px;
+        padding: 0.2rem;
+    text-decoration: none;
+    color: rgb(205, 190, 190);
+
+
+
+}
+
+.Navbar-LeftItem a:hover {
+    color: rgb(255, 238, 238);
+}
