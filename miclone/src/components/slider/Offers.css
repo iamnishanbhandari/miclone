@@ -1,0 +1,18 @@
+.offersSection{
+    /* border: 1px solid red; */
+    height: 240px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.offersSection img{
+    margin: 1.5rem;
+transition: all 0.5;
+}
+
+.offersSection img:hover{
+    box-shadow: grey 6px 6px 15px;
+}

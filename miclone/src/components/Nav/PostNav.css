@@ -1,11 +1,89 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-.postNav-components{
-    outline: 1px solid red;
-    height: 4rem;
-    
+.postNav-components {
+    outline: 2px solid rgb(255, 254, 254);
+    height: 4.4rem;
+    background-color: rgb(238, 112, 15);
 }
+
+.postNav-all {
+    /* border: 1px solid navy; */
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 3.5%;
+}
+
+
+.navlinks {
+
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.navlinks:hover{
+    color: rgb(67, 66, 66);
+}
+
+.postNav-search {
+    width: 20rem;
+    height: 2rem;
+    position: relative;
+    margin-right: -15rem;
+}
+
+.post-search {
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(255, 239, 239);
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+}
+
+@media (min-width :500px) and ( max-width: 1200px) {
+    .post-search{
+        width: 5rem;
+    }    
+}
+.post-search::placeholder{
+    color: white;
+}
+
+.postNav-search > svg{
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.logo{
+    overflow: hidden;
+    background-color: rgb(238, 115, 21);
+    width: 60px;
+    cursor: pointer;    
+}
+
+#logoImage{
+    transition: all 0.2s;
+    transform: translateX(-58px);
+}
+
+
+#logoImage:hover{
+    transform: translate(0);
+}
+
+/* .logo:hover{
+    background-color: green;
+
+} */
