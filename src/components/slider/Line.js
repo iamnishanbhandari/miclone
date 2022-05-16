@@ -1,16 +1,16 @@
-// import React from 'react'
-// import './Line.css';
+import React from 'react'
+import '../slider/line.css'
 
-// function Line({text}) {
-//   return (
-// <>
-// <div className='lineText'> 
-// <div></div>
-// <p> {text} </p>
-// <div></div>
-// </div>
-// </>
-//     )
-// }
+function Line({text})  {
+  return (
+<>
+<div className='lineText'> 
+<div></div>
+<p> {text} </p>
+<div></div>
+</div>
+</>
+    )
+}
 
-// export default Line
+export default Line

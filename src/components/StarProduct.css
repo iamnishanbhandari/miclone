@@ -1,0 +1,21 @@
+.starProduct {
+  /* outline: 1px solid rebeccapurple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1vmax;
+}
+
+.starProduct > div:last-child {
+  /* outline: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+}
+
+.starProduct img:hover {
+  transition: 0.5s;
+}
+.starProduct img:hover {
+  box-shadow: 6px 6px 15px rgb(53, 53, 53, 0.363);
+}

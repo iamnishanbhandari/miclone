@@ -1,0 +1,15 @@
+.HotAccessoriesMenu{
+display: flex;
+justify-content: center;
+}
+
+.HotAccessoriesLink{
+text-decoration: none;    
+color: rgb(62, 60, 60);
+margin: 1vmax;
+padding: 0.5vmax;
+}
+
+.HotAccessoriesLink:hover{
+    color: orangered;
+}
