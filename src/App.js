@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Navbar from "./components/Nav/Navbar";
 import PostNav from "./components/Nav/PostNav";
@@ -9,6 +10,10 @@ import Line from "./components/slider/Line";
 import StarProduct from "./components/Starproduct";
 import HotAccessoriesMenu from "./components/HotAccessories/HotAccessoriesMenu";
 import HotAccessories from "./components/HotAccessories";
+import ProductReviews from "./components/ProductReviews";
+import Videos from "./components/Videos";
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 // import Line from './components/Line';
 const App = () => {
   return (
@@ -22,8 +27,8 @@ const App = () => {
         <Offers offer={data.offer} />
         <Line text="STAR PRODUCTS" />
         <StarProduct starProduct={data.starProduct} />
-        <Line text="HOT ACCESSORIES" />
-        <HotAccessoriesMenu />
+        {/* <Line text="HOT ACCESSORIES" /> */}
+        {/* <HotAccessoriesMenu />
         <Routes>
           <Route
             path="/music"
@@ -34,7 +39,19 @@ const App = () => {
               />
             }
           />
-        </Routes>
+        </Routes> */}
+
+        <Line text="PRODUCT REVIEWS" />
+        <ProductReviews productReviews={data.productReviews} />
+
+        <Line text="VIDEOS" />
+        <Videos videos={data.videos} />
+
+        <Line text="IN THE PRESS" />
+        <Banner banner={data.banner} />
+
+        <Line text="FOOTER" />
+        <Footer footer={data.footer} />
       </Router>
     </>
   );
